@@ -1,3 +1,10 @@
+const openTab = () => {
+    window.open(
+        "https://28tech.com.vn/", "28tech",
+        "_blank",
+        "width=window.innerWidth, height=window.innerHeight, left=500, top=500"
+    );
+};
 
 setInterval(()=>{
     const time = document.getElementById("time");
